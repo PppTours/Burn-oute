@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	font-size: 200%;
+	padding: 10px;
+	background-color: white;
+}
+
+#map{
+	margin: 10px;
+	background-color: green;
+}
+
+#pop-up{
+	background-color: red;
+	margin: 10px;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+#Logo_IST{
+	width: 50px;
+    height: 50px;
+	opacity: 0.5;
+}
+
+#Transition{
+	width: 200px;
+	height: 200px;
+	opacity: 1;
+}

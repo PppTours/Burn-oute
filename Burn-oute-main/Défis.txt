@@ -1,0 +1,17 @@
+AFIA : IA
+CAPGEMINI ENGINEERING : =~ facil'iti
+ASI : Easter Egg
+Code trooper : Easter Egg
+3DS HADOUKEN : Konami code
+AXOPEN : CAPTCHA
+3IL Ingénieurs : Défi Twist visuel animé
+NAGARRO FRANCE : Défi graphiques animés
+VIVERIS : Submit interactif stylé
+TOOLPAD : Animations stylés
+
+Défis qu'on va réaliser :
+_CAPGEMINI ENGINEERING : =~facil'iti
+_ASI RENNES : easter-egg
+_Twist : Animation entre 3 et 120s,
+_Pitch : 
+

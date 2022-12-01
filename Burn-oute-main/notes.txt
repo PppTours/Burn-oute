@@ -1,0 +1,5 @@
+Défis qu'on va réaliser :
+_CAPGEMINI ENGINEERING : =~facil'iti
+_ASI RENNES : easter-egg
+_Twist : Animation entre 3 et 120s,
+_Pitch
