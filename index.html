@@ -4,11 +4,10 @@
 		<title>Budget personnel</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css"/>
-		<script src="main.js" defer></script>
+		<script src="src/main.js" defer></script>
 	</head>
 	<body>
 		<header>
-			<button id="cookies">🍪</button>
 			<p>BURN-OUTE SIDA GAME</p>
 		</header>
 		<div id="corps">
@@ -17,10 +16,19 @@
 			</div>
 			<div id="map">
 				<p>Carte du jeu</p>
-				<div id="pop-up">
-					<p>Combat !</p>
-				</div>
 				<p>...</p>
+			</div>
+			<div id="pop-up">
+				<p>Combat !</p>
+				<img id="Logo_IST" src="assets/Pokeball.png" alt="Logo des pokemons">
+				<button id="But_Attaque" type="button">Attaque</button>
+				<button id="But_Objet" type="button">Objets</button>
+				<button id="But_IST" type="button">IST</button>
+				<button id="But_Parler" type="button">Parler</button>
+				<button id="But_Attaque_1" type="button">ATK_1</button>
+				<button id="But_Attaque_2" type="button">ATK_2</button>
+				<button id="But_Attaque_3" type="button">ATK_3</button>
+				<button id="But_Attaque_4" type="button">ATK_4</button>
 			</div>
 			<div id="stats">
 				<p>Vous avez 10 PV</p>
@@ -35,15 +43,5 @@
 			<p>Vinet Dylan</p>
 			<p>Equipe de Polytech Tours</p>
 		</footer>
-		<div id="cookies-modal" class="modal">
-			<div class="modal-content">
-				<span id="close">&times;</span>
-				<div id="texte-cookies">
-				</div>
-				<button id="accepter">Accepter</button>
-				<button id="refuser">Refuser</button>
-				<button id="plus">Voir plus</button>
-			</div>
-		</div>
 	</body>
 </html>
