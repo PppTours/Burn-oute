@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	font-size: 200%;
+	padding: 10px;
+	background-color: white;
+}
+
+#map{
+	margin: 10px;
+	background-color: green;
+}
+
+#pop-up{
+	background-color: red;
+	margin: 10px;
+}
+
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
