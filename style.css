@@ -26,8 +26,106 @@ footer{
 	color: white;
 }
 
+#cookies{
+	position: absolute;
+	top: 0pt;
+	left: 5pt;
+	padding: 0pt;
+	background: none;
+	text-transform: 20pt;
+}
+
+#But_Attaque_1, #But_Attaque_2, #But_Attaque_3, #But_Attaque_4{
+	display: none;
+}
+
+#But_Objet_1, #But_Objet_2, #But_Objet_3, #But_Objet_4{
+	display: none;
+}
+
+#But_IST_1, #But_IST_2, #But_IST_3, #But_IST_4, #But_Retour{
+	display: none;
+}
+
+#But_En_Apprendre_Plus, #But_Rassurer, #But_Infos, #But_Autres{
+	display: none;
+}
+
 #Logo_IST{
-	width: 50px;
+    width: 50px;
     height: 50px;
-	opacity: 0.5;
+    opacity: 0.5;
+}
+
+#Transition{
+    width: 200px;
+    height: 200px;
+}
+
+#IMG_XX{
+    width: 120px;
+    height: 120px;
+    left: 100px;
+    top: 100px;
+}
+
+#IMG_XY{
+    width: 120px;
+    height: 120px;
+    left: 300px;
+    top: 100px;
+}
+
+#Select_XX{
+    width: 120px;
+    height: 120px;
+    left: 100px;
+    top: 100px;
+}
+
+#Select_XY{
+    width: 120px;
+    height: 120px;
+    left: 300px;
+    top: 100px;
+}
+
+/* calque entre la page et le pop-up */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* fenêtre pop-up */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid #f00;
+  width: 60%;
+  max-width: 400pt;
+  text-align: center;
+}
+
+/* bouton pour fermer */
+#close {
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: #f00;
+  text-decoration: none;
+  cursor: pointer;
 }
