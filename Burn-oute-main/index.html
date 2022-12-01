@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Burn-oute SIDA game</title>
+		<title>Budget personnel</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css"/>
-		<script src="man.js" defer></script>
+		<script src="src/main.js" defer></script>
 	</head>
 	<body>
 		<header>
-			<button id="cookies">🍪</button>
 			<p>BURN-OUTE SIDA GAME</p>
 		</header>
-		<div id="corps">
-			<a href="jeu.html">
-				<button id="Button_Page_Principal" type="button">Jouer</button>
+		<div>
+			<a href="jeu.html" target="self">
+				<button id="Button_Page_Principal" type="button" target="self">Jouer</button>
 			</a>
+			<button id="Button_Contact" type="button">Contact</button>
 		</div>
 		<footer>
 			<p>Site créé dans le cadre de la Nuit de l'Info 2022 par :</p>
@@ -25,15 +25,5 @@
 			<p>Vinet Dylan</p>
 			<p>Equipe de Polytech Tours</p>
 		</footer>
-		<div id="cookies-modal" class="modal">
-			<div class="modal-content">
-				<span id="close">&times;</span>
-				<div id="texte-cookies">
-				</div>
-				<button id="accepter">Accepter</button>
-				<button id="refuser">Refuser</button>
-				<button id="plus">Voir plus</button>
-			</div>
-		</div>
 	</body>
 </html>
