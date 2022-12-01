@@ -8,3 +8,4 @@ Route 34 -> Rule 34
 
 3 écrans : COMBAT - MAP - MENU
 
+Le jeu commence dans un village, celui de Bourg Arc-en-Ciel.
