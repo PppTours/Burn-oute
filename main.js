@@ -20,6 +20,8 @@ let b_objets = document.getElementById('But_Objet');
 let b_ist = document.getElementById('But_IST');
 let b_parler = document.getElementById('But_Parler');
 let b_retour = document.getElementById('But_Retour');
+let homme = document.getElementById('IMG_XX');
+let femme = document.getElementById('IMG_XY');
 
 let cookies = document.getElementById('cookies');
 let modal = document.getElementById('cookies-modal');
@@ -35,6 +37,56 @@ function cacher(){
 	b_objets.style.display = "none";
 	b_ist.style.display = "none";
 	b_parler.style.display = "none";
+}
+
+
+homme.addEventListener('click', function(event){
+	homme.style.display = "none";
+	femme.style.display = "none";
+	map.style.display = "block";
+});
+
+
+femme.addEventListener('click', function(event){
+	homme.style.display = "none";
+	femme.style.display = "none";
+	map.style.display = "block";
+	heros.homme = false;
+});
+
+
+map.addEventListener('click', function(event) {
+	// affiche les coordonnées de la souris dans différents repères dès qu'on la bouge
+	var x = event.offsetX;
+	var y = event.offsetY;
+    console.log(`<li>Dans cette zone : ${x}, ${y}</li>`);
+    if (215 < y && y < 255){
+    	if (200 < x && x < 280) maisonG();
+    	else if (520 < x && x < 600) maisonD();
+    }else{
+    	if (340 < x && x < 460 && y < 120) depistage();
+    }
+});
+
+
+function maisonG(){
+	console.log("gauche");
+	map.style.display = "none";
+	popup.style.display = "block";
+}
+
+
+function maisonD(){
+	console.log("droite");
+	map.style.display = "none";
+	popup.style.display = "block";
+}
+
+
+function depistage(){
+	console.log("depistage");
+	map.style.display = "none";
+	popup.style.display = "block";
 }
 
 
@@ -136,4 +188,13 @@ span.onlick = function(){
 }
 
 
-console.log(heros)
+console.log(heros);
+
+
+// INFOBULLES
+document.getElementByID('test').onclick = function(event){
+	console.log("event detecte");
+	modal.style.display = "block";
+	texte.innerHTML = "<p>Pikachtouille etait mignon avant de se faire sauter\
+						par la mauvaise carapute.</p>";
+};
