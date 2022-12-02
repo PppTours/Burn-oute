@@ -91,6 +91,7 @@ b_retour.onclick = function(){
 	document.getElementById('But_Rassurer').style.display = "none";
 	document.getElementById('But_Infos').style.display = "none";
 	document.getElementById('But_Autres').style.display = "none";
+	b_retour.style.display = "none";
 	b_attaque.style.display = "inline-block";
 	b_objets.style.display = "inline-block";
 	b_ist.style.display = "inline-block";
