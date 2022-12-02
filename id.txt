@@ -32,7 +32,7 @@ comprenant tout ce qu'il a évité... Le jeu finit sur la page de tous les mst q
 *******(sous-entendu qu'il va avoir un rapport authentique avec qqun, bonne fin).*******
 
 Bois de boulogne --> Grande cabane avec pleins de chambres, et les jeunes s'y retrouvent pour avoir un rapport expédié rapidement
-Ville --> boite de nuit avec personnes droguées en dehors, allongés par terre et en train de vomir.
+Ville de Terminus --> boite de nuit avec personnes droguées en dehors, allongés par terre et en train de vomir.
 
 SCRIPT :
 
@@ -53,9 +53,12 @@ Il part alors découvrir le monde à la recherche de ce qu'il ne connait pas.
 Dans le village, il croise un de ses amis d'enfance, qui est dans la même situation que lui (sans mst), et lui dit qu'il n'en peut plus
 et souhaite aller au bois de boulogne en suivant la foule qui part pour la route 69...
 
-Le héros traverse la route 69 et croise qqun dépité, qui ne fait que se plaindre ("C'est plus possible, je ne comprends pas ce qu'il m'arrive !, Peut-être que je n'aurais jamais dû le faire...), le gars lui fonce dessus et le premier combat se lance. A la fin du combat il nous dit qu'il a suivi un groupe qui allait dans une cabane au fond de la foret et les a rejoint sans réfléchir : on lui indique le lieu du centre de dépistage de la ville de début. On arrive dans la foret et des groupes s'enfuient (de tous les sexes) hors de la foret depuis la cabane. On rentre dans la cabane et les groupes se rejoignent pour commettre l'acte dans les chambres ! Une femme nous dit qu'elle regrette d'être rentrée dedans et angoissée elle se sentait heureuse qu'on lui accorde le droit d'aller dans la chambre. Le combat se lance, et à la fin elle nous explique que tout s'est passé très vite dans la chambre, elle regrette... On l'envoie au centre de dépistage...
+Le héros traverse la route 69 et croise qqun dépité, qui ne fait que se plaindre ("C'est plus possible, je ne comprends pas ce qu'il m'arrive !, Peut-être que je n'aurais jamais dû le faire...), le gars lui fonce dessus et le premier combat se lance. A la fin du combat il nous dit qu'il a suivi un groupe qui allait dans une cabane au fond de la foret et les a rejoint sans réfléchir : on lui indique le lieu du centre de dépistage de la ville de début. On arrive dans la foret et des groupes s'enfuient (de tous les sexes) hors de la foret depuis la cabane. On rentre dans la cabane et les groupes se rejoignent pour commettre l'acte dans les chambres ! Une femme nous dit qu'elle regrette d'être rentrée dedans et angoissée elle se sentait heureuse qu'on lui accorde le droit d'aller dans la chambre. Le combat se lance, et à la fin elle nous explique que tout s'est passé très vite dans la chambre, elle regrette... On l'envoie au centre de dépistage... Elle aurait croisé qqun qui ressemblait à notre pote dans une des chambres, et il est sorti en même temps que la foule.
 
+On retourne dans le village, et toutes les personnes sont dans le centre de dépistage, et on apprend que la plupart des jeunes sont partis pour la grande ville.
 
-Dans la ville
+Sur la route
+
+Dans la ville Terminus, tous les personnages sont 
 
 BOSS FINAL --> notre pote du début qui est dans une boite de nuit dans la ville, et qui a attrapé bcp de mst en étant terrifié. Il a été drogué et on le retrouve allongé par terre endormi, puis il se réveille et le combat final se lance.
