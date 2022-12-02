@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeu du sexe</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="style.css"/>
+		<script src="main.js" defer></script>
+		<link rel="icon" type="image/png" href="assets/Logo.png">
+    </head>
+    <body>
+    	<nav>
+            <ul class="menu_aide">
+              <li>
+                Pokemon
+                <ul class="sub-menu_aide">
+                  <li class="Element" id="Ele_Pikachtouille">Pikachtouille</li>
+                  <li class="Element" id="Ele_Carapuceau">Carapuceau</li>
+                </ul>
+              </li>
+              <li>
+                Objets
+                <ul class="sub-menu_aide">
+                  <li class="Element" id="Ele_Potion">Potion</li>
+                  <li class="Element" id="Ele_Prep">PrEP</li>
+                  <li class="Element" id="Ele_TPE">TPE</li>
+                </ul>
+              </li>
+              <li>
+                IST
+                <ul class="sub-menu_aide">
+                  <li class="Element" id="Ele_VIH">VIH</li>
+                  <li class="Element" id="Ele_Hepat">Hépatite B</li>
+                </ul>
+              </li>
+              <li>
+                Parler
+                <ul class="sub-menu_aide">
+                  <li class="Element" id="Ele_En_App+">En apprendre +</li>
+                  <li class="Element" id="Ele_Rassurer">Rassurer</li>
+                  <li class="Element" id="Ele_Infos">Infos générales</li>
+                  <li class="Element" id="Ele_Autrees">Autres</li>
+                  <p class="Infobulle" id="Info_Pikachtouille">Pikachtouille a la chtouille</p>
+                </ul>
+              	</li>
+            </ul>
+         </nav>
+        <div id="corps">
+            <a href="index.html">
+				<img id="Button_Page_Principal" src="assets/accueil.png" target=self>
+			</a>
+			<div>
+				<p id="selection">Avant toute chose, sélectionnez votre personnage !</p>
+				<img id="IMG_XX" src="assets/Homme.png">
+				<img id="IMG_XY" src="assets/Femme.png">
+			</div>
+			<div id="map">
+				<img id="img_carte" src="assets/Arriere-plan.png" width=100%>
+			</div>
+			<div id="pop-up">
+				<img id="Fond_Combat" src="assets/Ecran_combat.png" alt="Fond de combat" width=100%>
+				<img id="pokemon" src="assets/Carapucelle.png" alt="pokemon">
+				<img id="PNJ1" src="assets/pnj_1.png" alt="personnage">
+				<img id="PNJ2" src="assets/pnj_2.png" alt="personnage">
+				<img id="Logo_IST" src="assets/Pokeball.png" alt="Logo des pokemons">
+				<img id="Transition" src="assets/Trans_combat.gif">
+				<div id="replique"></div>
+				<div id="reponse"></div>
+				<button class="Button_Interact_Menu" id="But_Attaque" type="button">Attaque</button>
+				<button class="Button_Interact_Menu" id="But_Objet" type="button">Objets</button>
+				<button class="Button_Interact_Menu" id="But_Parler" type="button">Parler</button>
+				<button class="Button_Interact_Menu" id="But_Attaque_1" type="button">Repos</button>
+				<button class="Button_Interact_Menu" id="But_Attaque_2" type="button">Immunité</button>
+				<button class="Button_Interact_Menu" id="But_Attaque_3" type="button">PrEP</button>
+				<button class="Button_Interact_Menu" id="But_Attaque_4" type="button">Abstinence</button>
+				<button class="Button_Interact_Menu" id="But_Objet_1" type="button">Benzhatine</button>
+				<button class="Button_Interact_Menu" id="But_Objet_2" type="button">Contraception</button>
+				<button class="Button_Interact_Menu" id="But_Objet_3" type="button">Doliprane</button>
+				<button class="Button_Interact_Menu" id="But_Objet_4" type="button">TPE</button>
+                <button class="Button_Interact_Menu" id="But_En_Apprendre_Plus" type="button">En apprendre plus</button>
+				<button class="Button_Interact_Menu" id="But_Rassurer" type="button">Rassurer</button>
+				<button class="Button_Interact_Menu" id="But_Infos" type="button">Informations générales</button>
+				<button class="Button_Interact_Menu" id="But_Autres" type="button">Autres</button>
+				<button class="Button_Interact_Menu" id="But_Retour" type="button">Retour</button>
+			</div>
+		</div>
+		<footer>
+			<p>Site créé dans le cadre de la Nuit de l'Info 2022 par :</p>
+			<a class="Lien_mail" href="mailto:antoine.delenclos37@gmail.com">
+				<p>Delenclos Antoine</p>
+			</a>
+			<a class="Lien_mail" href="mailto:elidrissi.sami89@gmail.com">
+				<p>El Idrissi Sami</p>
+			</a>
+			<a class="Lien_mail" href="mailto:mehdi.elidrissi89@gmail.com">
+				<p>El Idrissi Mehdi</p>
+			</a>
+			<a class="Lien_mail" href="mailto:quentin.varesano@gmail.com">
+				<p>Varesano Quentin</p>
+			</a>
+			<a class="Lien_mail" href="mailto:dylan.vinet@etu.univ-tours.fr">
+				<p>Vinet Dylan</p>
+			</a>
+			<p>Equipe de P++, Polytech Tours</p>
+		</footer>
+    </body>
+</html>
