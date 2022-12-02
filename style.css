@@ -2,6 +2,9 @@
 	margin: 0;
 }
 
+body{
+	background:linear-gradient(white,rgb(238, 202, 208));
+}
 header{
 	text-align: center;
 	font-size: 200%;
@@ -22,7 +25,7 @@ header{
 footer{
 	text-align: center;
 	padding: 10px;
-	background-color: black;
+	background: black;
 	color: white;
 }
 
@@ -54,7 +57,7 @@ footer{
 #Logo_IST{
     width: 50px;
     height: 50px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 #Transition{
@@ -203,3 +206,37 @@ nav {
 .menu_aide > li:hover .sub-menu_aide {
 	transform: scale(1);
 }
+
+.Element{
+	width: 100px;
+	background-color: black;
+	opacity: 0.3;
+}
+
+.Infobulle{
+	transform: scale(0);
+	position: absolute;
+	background-color: #2e3048;
+	color:white;
+	padding: 8px;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 0,5px rgb(0,0,0,0.3);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	transition: 0.3s;
+}
+
+.Infobulle::before{
+	content: '';
+	position: absolute;
+	border-bottom: 8px solid #2e3048;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	margin-top: -15px;
+}
+
+.Element:hover > .Infobulle{
+	transform: scale(1);
+}
+

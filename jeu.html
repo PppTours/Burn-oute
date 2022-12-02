@@ -3,6 +3,7 @@
     <head>
         <title>Jeu du sexe</title>
         <meta charset="utf-8">
+		<link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
 		<link rel="stylesheet" href="style.css"/>
 		<script src="src/main.js" defer></script>
         <title>Document</title>
@@ -14,38 +15,44 @@
 			  <li>
 				Pokemon
 				<ul class="sub-menu_aide">
-				  <li>Pikachtouille</li>
-				  <li>Carapuceau</li>
+				  <li class="Element" id="Ele_Pikachtouille">Pikachtouille</li>
+				  <li class="Element" id="Ele_Carapuceau">Carapuceau</li>
 				</ul>
 			  </li>
 			  <li>
 				Objets
 				<ul class="sub-menu_aide">
-				  <li>Potion</li>
-				  <li>PrEP</li>
-				  <li>TPE</li>
+				  <li class="Element" id="Ele_Potion">Potion</li>
+				  <li class="Element" id="Ele_Prep">PrEP</li>
+				  <li class="Element" id="Ele_TPE">TPE</li>
 				</ul>
 			  </li>
 			  <li>
 				IST
 				<ul class="sub-menu_aide">
-				  <li>VIH</li>
-				  <li>Hépatite B</li>
+				  <li class="Element" id="Ele_VIH">VIH</li>
+				  <li class="Element" id="Ele_Hepat">Hépatite B</li>
 				</ul>
 			  </li>
 			  <li>
 				Parler
 				<ul class="sub-menu_aide">
-				  <li>En apprendre +</li>
-				  <li>Rassurer</li>
-				  <li>Infos générales</li>
-				  <li>Autres</li>
+				  <li class="Element" id="Ele_En_App+">En apprendre +</li>
+				  <li class="Element" id="Ele_Rassurer">Rassurer</li>
+				  <li class="Element" id="Ele_Infos">Infos générales</li>
+				  <li class="Element" id="Ele_Autrees">Autres</li>
+				  <p class="Infobulle" id="Info_Pikachtouille">Pikachtouille a la chtouille</p>
 				</ul>
 			  </li>
 			</ul>
 		  </nav>
 
-
+		<div class="Element">
+			mon_element
+			<div class="Infobulle">
+				Mon infobulle
+			</div>
+		</div>
         <div id="corps">
             <a href="index.html" target="_self">
 				<button id="Button_Page_Principal" type="button" target="self">Page d'accueil</button>
@@ -58,9 +65,9 @@
 			<div>
 				<p>Sélectionnez votre personnage</p>
 				<button class="Button_Select_Perso" id="Select_XX" src=""></button>
-				<img id="IMG_XX" src="assets/XX.png">
+				<img id="IMG_XX" src="assets/Homme.png">
 				<button class="Button_Select_Perso" id="Select_XY" src=""></button>
-				<img id="IMG_XY" src="assets/XY.png">
+				<img id="IMG_XY" src="assets/Femme.png">
 			</div>
 
 			<div id="map">
@@ -69,7 +76,7 @@
 			</div>
 			<div id="pop-up">
 				<p>Combat !</p>
-				<img id="Logo_IST" src="assets/Pokeball.png" alt="Logo des pokemons">
+				<img id="Logo_IST" src="assets/Logo_grand.png" alt="Logo des pokemons">
 				<img id="Transition" src="assets/Trans_combat.gif">
 				<button class="Button_Interact_Menu" id="But_Attaque" type="button">Attaque</button>
 				<button class="Button_Interact_Menu" id="But_Objet" type="button">Objets</button>
@@ -103,5 +110,24 @@
 				<p>Vous avez 10 PV</p>
 			</div>
 		</div>
+		<footer>
+			<p>Site créé dans le cadre de la Nuit de l'Info 2022 par :</p>
+			<a class="Lien_mail" href="mailto:antoine.delenclos37@gmail.com">
+				<p>Delenclos Antoine</p>
+			</a>
+			<a class="Lien_mail" href="mailto:elidrissi.sami89@gmail.com">
+				<p>El Idrissi Sami</p>
+			</a>
+			<a class="Lien_mail" href="mailto:mehdi.elidrissi89@gmail.com">
+				<p>El Idrissi Mehdi</p>
+			</a>
+			<a class="Lien_mail" href="mailto:quentin.varesano@gmail.com">
+				<p>Varesano Quentin</p>
+			</a>
+			<a class="Lien_mail" href="mailto:dylan.vinet@etu.univ-tours.fr">
+				<p>Vinet Dylan</p>
+			</a>
+			<p>Equipe de P++ Polytech Tours</p>
+		</footer>
     </body>
 </html>

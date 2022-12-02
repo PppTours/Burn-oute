@@ -3,47 +3,48 @@
 	<head>
 		<title>Budget personnel</title>
 		<meta charset="utf-8">
+		<link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
 		<link rel="stylesheet" href="style.css"/>
-		<script src="main.js" defer></script>
+		<script src="src/main.js" defer></script>
 	</head>
 	<body>
 		<header>
-			<button id="cookies">🍪</button>
 			<p>BURN-OUTE SIDA GAME</p>
 		</header>
-		<div id="corps">
-			<div id="intro">
-				<p>Bienvenue...</p>
-			</div>
-			<div id="map">
-				<p>Carte du jeu</p>
-				<div id="pop-up">
-					<p>Combat !</p>
-				</div>
-				<p>...</p>
-			</div>
-			<div id="stats">
-				<p>Vous avez 10 PV</p>
-			</div>
+		<div>
+		<p class="Titre_partie" id="Pres">Présentation</p> <!--A enlever par la suite-->
+		<p class="Paragraphe" id="Pres_para">A l'occasion de cette Nuit de l'Info 2022 et de la 34ème journée mondiale de lutte contre le SIDA.</p>
+		<p class="Paragraphe" id="Pres_para">Ce site est un jeu ludique sensibilisant sur les IST, les relations sexuelles et la contraception.</p>
+		<p class="Paragraphe" id="Pres_para">Le but est d'éduquer les jeunes adultes et d'éliminer certains préjugés qui sont dépassés en 2022.</p>
+		<p class="Titre_partie" id="Regles">Règles</p>
+		<p class="Paragraphe" id="Regles_para">Ce jeu est un jeu d'aventure sur une carte interactive avec un système de combat en tour par tour.</p>
+		<p class="Paragraphe" id="Regles_para">Le but est d'avancer jusqu'à la ville de Terminus en aidant le maximum de personnes en route, pour enfin y combattre le VIH.</p>
+		<p class="Paragraphe" id="Regles_para">Pour ce faire il faudra bien choisir son trajet et gagner ses différents combats</p>
+		</div>
+
+		<div>
+			<a href="jeu.html" target="self">
+			<img id="Select_Screen" src="assets/jouer.gif">
+			</a>
 		</div>
 		<footer>
 			<p>Site créé dans le cadre de la Nuit de l'Info 2022 par :</p>
-			<p>Delanclos Antoine</p>
-			<p>El Idrissi Sami</p>
-			<p>El Idrissi Mehdi</p>
-			<p>Varesano Quentin</p>
-			<p>Vinet Dylan</p>
-			<p>Equipe de Polytech Tours</p>
+			<a class="Lien_mail" href="mailto:antoine.delenclos37@gmail.com">
+				<p>Delenclos Antoine</p>
+			</a>
+			<a class="Lien_mail" href="mailto:elidrissi.sami89@gmail.com">
+				<p>El Idrissi Sami</p>
+			</a>
+			<a class="Lien_mail" href="mailto:mehdi.elidrissi89@gmail.com">
+				<p>El Idrissi Mehdi</p>
+			</a>
+			<a class="Lien_mail" href="mailto:quentin.varesano@gmail.com">
+				<p>Varesano Quentin</p>
+			</a>
+			<a class="Lien_mail" href="mailto:dylan.vinet@etu.univ-tours.fr">
+				<p>Vinet Dylan</p>
+			</a>
+			<p>Equipe de P++ Polytech Tours</p>
 		</footer>
-		<div id="cookies-modal" class="modal">
-			<div class="modal-content">
-				<span id="close">&times;</span>
-				<div id="texte-cookies">
-				</div>
-				<button id="accepter">Accepter</button>
-				<button id="refuser">Refuser</button>
-				<button id="plus">Voir plus</button>
-			</div>
-		</div>
 	</body>
 </html>
